@@ -5,6 +5,6 @@ st.write("Hello !! Creating a simple web application using streamlit . ")
 name=st.text_input("Enter Your name : ")
 #Displaying a message when a button is clicked
 if st.button("Submit"):
-  st.write("Hello, {name} !! Welcome to streamlit. ")
+  st.write(f"Hello, {name} !! Welcome to streamlit. ")
 
 
