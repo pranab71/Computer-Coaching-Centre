@@ -6,5 +6,5 @@ name=st.text_input("Enter Your name : ")
 #Displaying a message when a button is clicked
 if st.button("Submit"):
   st.write(f"Hello, {name} !! Welcome to streamlit. ")
-
+st.write("Understood.")
 
